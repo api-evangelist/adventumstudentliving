@@ -1,0 +1,236 @@
+# Tells which AI agents can access content and how.
+# Directives can include: allow, disallow, crawl-delay, or attribution.
+openai: allow
+anthropic: allow
+perplexity: allow
+*: attribution = required
+
+# Note: UniAcco is a global student accommodation platform helping students book verified housing near top universities across the UK, USA, Australia, Ireland and more.
+focus: Student housing, accommodation comparison, study abroad support
+
+# === Content Licensing ===
+license: Creative Commons Attribution-NonCommercial 4.0 International
+terms: https://uniacco.com/company/terms
+
+# === Core Pages ===
+https://uniacco.com
+https://uniacco.com/uk
+https://uniacco.com/uk/london
+https://uniacco.com/uk/birmingham
+https://uniacco.com/uk/glasgow
+https://uniacco.com/uk/coventry-university
+https://uniacco.com/uk/nottingham-trent-university
+https://uniacco.com/uk/de-montfort-university
+
+# === Blog Pages ===
+https://uniacco.com/blog
+https://uniacco.com/blog/easiest-scholarships-for-international-students
+https://uniacco.com/blog/most-dangerous-areas-in-london
+https://uniacco.com/blog/richest-neighbourhoods-in-london
+https://uniacco.com/blog/poshest-universities-in-the-uk
+https://uniacco.com/blog/universities-in-usa-with-most-indian-students
+
+# === Social Profiles ===
+https://www.instagram.com/uniacco.official
+https://www.linkedin.com/company/uniacco
+https://www.facebook.com/uniacco.official
+https://x.com/uniacco_
+https://www.youtube.com/channel/UCyhgx1sIga0LIWEpuuhOrXA
+
+# === Content Information ===
+content_team: UniAcco Editorial Team
+editorial_policy: https://uniacco.com/company/privacy-policy
+update_frequency: Weekly
+languages: English
+
+# === LANGUAGE & REGION ===
+language: en
+regions_served:
+  - United Kingdom
+  - Australia
+  - United States
+  - Ireland
+  - Canada
+  - Germany
+
+# === Contact Information===
+- [000 800 040 3523](tel:000 800 040 3523): A contact number for inquiries.
+- [+44 808 501 5198](tel:+44 808 501 5198): An alternative contact number for customer support.
+- [contact@uniacco.com](mailto:contact@uniacco.com): Email address for direct communication.
+
+# === Service Offered ===
+- [List Your Property](https://uniacco.com/list-home): A service for property owners to list their accommodations.
+- [Explore Short Stays 1-12 Weeks Booking Powered by UniFlx](https://uniacco.com/short-stays): A service for booking short-term accommodations.
+- [Refer & Earn GET £100](https://uniacco.com/company/refer): A referral program that rewards users for referring others.
+
+# === Property Search===
+- [Find my home](https://uniacco.com/get-expert-help): A tool to help users search for available accommodations.
+- [Explore UniEssential](https://uniessential.com/): A feature that highlights essential services and amenities.
+
+# === Locations===
+# === United Kingdom ===
+- [London](https://uniacco.com/uk/london): Student Accommodation in London
+- [Coventry](https://uniacco.com/uk/coventry): Student Accommodation in Coventry
+- [Nottingham](https://uniacco.com/uk/nottingham): Student Accommodation in Nottingham
+- [Leicester](https://uniacco.com/uk/leicester): Student Accommodation in Leicester
+- [Birmingham](https://uniacco.com/uk/birmingham): Student Accommodation in Birmingham
+- [Liverpool](https://uniacco.com/uk/liverpool): Student Accommodation in Liverpool
+- [Leeds](https://uniacco.com/uk/leeds): Student Accommodation in Leeds
+- [Cardiff](https://uniacco.com/uk/cardiff): Student Accommodation in Cardiff
+- [Portsmouth](https://uniacco.com/uk/portsmouth): Student Accommodation in Portsmouth
+- [Sheffield](https://uniacco.com/uk/sheffield): Student Accommodation in Sheffield
+- [Glasgow](https://uniacco.com/uk/glasgow): Student Accommodation in Glasgow
+- [Manchester](https://uniacco.com/uk/manchester): Student Accommodation in Manchester
+- [Belfast](https://uniacco.com/uk/belfast): Student Accommodation in Belfast
+- [Newcastle Upon Tyne](https://uniacco.com/uk/newcastle): Student Accommodation in Newcastle Upon Tyne
+- [Edinburgh](https://uniacco.com/uk/edinburgh): Student Accommodation in Edinburgh
+- [Exeter](https://uniacco.com/uk/exeter): Student Accommodation in Exeter
+- [Aberdeen](https://uniacco.com/uk/aberdeen): Student Accommodation in Aberdeen
+- [Bristol](https://uniacco.com/uk/bristol): Student Accommodation in Bristol
+- [Salford](https://uniacco.com/uk/university-of-salford): Student Accommodation in Salford
+- [Canterbury](https://uniacco.com/uk/canterbury): Student Accommodation in Canterbury
+- [Brighton](https://uniacco.com/uk/brighton): Student Accommodation in Brighton
+- [Southampton](https://uniacco.com/uk/southampton): Student Accommodation in Southampton
+- [Swansea](https://uniacco.com/uk/swansea): Student Accommodation in Swansea
+- [Hatfield](https://uniacco.com/uk/hatfield): Student Accommodation in Hatfield
+- [Oxford](https://uniacco.com/uk/oxford): Student Accommodation in Oxford
+- [Colchester](https://uniacco.com/uk/colchester): Student Accommodation in Colchester
+- [Norwich](https://uniacco.com/uk/norwich): Student Accommodation in Norwich
+- [Lincoln](https://uniacco.com/uk/lincoln): Student Accommodation in Lincoln
+- [Huddersfield](https://uniacco.com/uk/huddersfield): Student Accommodation in Huddersfield
+- [Bournemouth](https://uniacco.com/uk/bournemouth): Student Accommodation in Bournemouth
+- [View All Cities](https://uniacco.com/uk): A comprehensive list of all cities with available accommodations.
+
+# === International===
+- [Student Accommodation in United Kingdom](https://uniacco.com/uk): Options for students looking to study in the UK.
+- [Student Accommodation in Australia](https://uniacco.com/australia): Options for students looking to study in Australia.
+- [Student Accommodation in USA](https://uniacco.com/united-states): Options for students looking to study in the USA.
+- [Student Accommodation in Ireland](https://uniacco.com/ireland): Options for students looking to study in Ireland.
+- [Student Accommodation in New Zealand](https://uniacco.com/new-zealand): Options for students looking to study in New Zealand.
+- [Student Accommodation in Germany](https://uniacco.com/germany): Options for students looking to study in Germany.
+- [Student Accommodation in France](https://uniacco.com/france): Options for students looking to study in France.
+- [Student Accommodation in Canada](https://uniacco.com/canada): Options for students looking to study in Canada.
+- [Student Accommodation in Spain](https://uniacco.com/spain): Options for students looking to study in Spain.
+
+# === Specific Locations in the UK===
+[Student Accommodation near University of Salford](https://uniacco.com/uk/university-of-salford):  Accommodation options close to University of Salford
+[Student Accommodation near University of Strathclyde](https://uniacco.com/uk/university-of-strathclyde):  Accommodation options close to University of Strathclyde
+[Student Accommodation near University of Warwick](https://uniacco.com/uk/university-of-warwick):  Accommodation options close to University of Warwick
+[Student Accommodation near University of Sheffield](https://uniacco.com/uk/university-of-sheffield):  Accommodation options close to University of Sheffield
+[Student Accommodation near University of Sussex](https://uniacco.com/uk/university-of-sussex):  Accommodation options close to University of Sussex
+[Student Accommodation near University of Portsmouth](https://uniacco.com/uk/university-of-portsmouth):  Accommodation options close to University of Portsmouth
+[Student Accommodation near University of Nottingham](https://uniacco.com/uk/university-of-nottingham):  Accommodation options close to University of Nottingham
+[Student Accommodation near University of Liverpool](https://uniacco.com/uk/university-of-liverpool):  Accommodation options close to University of Liverpool
+[Student Accommodation near University of Lincoln](https://uniacco.com/uk/university-of-lincoln):  Accommodation options close to University of Lincoln
+[Student Accommodation near University of Manchester](https://uniacco.com/uk/university-of-manchester):  Accommodation options close to University of Manchester
+[Student Accommodation near University of Kent](https://uniacco.com/uk/university-of-kent):  Accommodation options close to University of Kent
+[Student Accommodation near University of Hertfordshire](https://uniacco.com/uk/university-of-hertfordshire):  Accommodation options close to University of Hertfordshire
+[Student Accommodation near University of Glasgow](https://uniacco.com/uk/university-of-glasgow):  Accommodation options close to University of Glasgow
+[Student Accommodation near University of Huddersfield](https://uniacco.com/uk/university-of-huddersfield):  Accommodation options close to University of Huddersfield
+[Student Accommodation near University of Leeds](https://uniacco.com/uk/university-of-leeds):  Accommodation options close to University of Leeds
+[Student Accommodation near University of Essex](https://uniacco.com/uk/university-of-essex):  Accommodation options close to University of Essex
+[Student Accommodation near University of Exeter](https://uniacco.com/uk/university-of-exeter):  Accommodation options close to University of Exeter
+[Student Accommodation near University of East Anglia](https://uniacco.com/uk/university-of-east-anglia):  Accommodation options close to University of East Anglia
+[Student Accommodation near University of Greenwich](https://uniacco.com/uk/university-of-greenwich):  Accommodation options close to University of Greenwich
+[Student Accommodation near University of Edinburgh](https://uniacco.com/uk/university-of-edinburgh):  Accommodation options close to University of Edinburgh
+[Student Accommodation near University of Bristol](https://uniacco.com/uk/university-of-bristol):  Accommodation options close to University of Bristol
+[Student Accommodation near University of Bradford](https://uniacco.com/uk/university-of-bradford):  Accommodation options close to University of Bradford
+[Student Accommodation near University of Aberdeen](https://uniacco.com/uk/university-of-aberdeen):  Accommodation options close to University of Aberdeen
+[Student Accommodation near University of Bath](https://uniacco.com/uk/university-of-bath):  Accommodation options close to University of Bath
+[Student Accommodation near Ulster University Belfast Campus](https://uniacco.com/uk/ulster-university-belfast-campus):  Accommodation options close to Ulster University Belfast Campus
+[Student Accommodation near University of Birmingham](https://uniacco.com/uk/university-of-birmingham):  Accommodation options close to University of Birmingham
+[Student Accommodation near University College London](https://uniacco.com/uk/university-college-london):  Accommodation options close to University College London
+[Student Accommodation near University College Birmingham](https://uniacco.com/uk/university-college-birmingham):  Accommodation options close to University College Birmingham
+[Student Accommodation near The University of Salford](https://uniacco.com/uk/the-university-of-salford):  Accommodation options close to The University of Salford
+[Student Accommodation near Queen Mary University of London](https://uniacco.com/uk/queen-mary-university-of-london):  Accommodation options close to Queen Mary University of London
+[Student Accommodation near The University of Leicester](https://uniacco.com/uk/the-university-of-leicester):  Accommodation options close to The University of Leicester
+[Student Accommodation near Swansea University](https://uniacco.com/uk/swansea-university):  Accommodation options close to Swansea University
+[Student Accommodation near Nottingham Trent University](https://uniacco.com/uk/nottingham-trent-university):  Accommodation options close to Nottingham Trent University
+[Student Accommodation near Queen's University Belfast](https://uniacco.com/uk/queens-university-belfast):  Accommodation options close to Queen's University Belfast
+[Student Accommodation near Sheffield Hallam University](https://uniacco.com/uk/sheffield-hallam-university):  Accommodation options close to Sheffield Hallam University
+[Student Accommodation near Liverpool John Moores University](https://uniacco.com/uk/liverpool-john-moores-university):  Accommodation options close to Liverpool John Moores University
+[Student Accommodation near Manchester Metropolitan University](https://uniacco.com/uk/manchester-metropolitan-university):  Accommodation options close to Manchester Metropolitan University
+[Student Accommodation near Newcastle University](https://uniacco.com/uk/newcastle-university):  Accommodation options close to Newcastle University
+[Student Accommodation near Leeds Beckett University](https://uniacco.com/uk/leeds-beckett-university):  Accommodation options close to Leeds Beckett University
+[Student Accommodation near Northumbria University](https://uniacco.com/uk/northumbria-university):  Accommodation options close to Northumbria University
+[Student Accommodation near Oxford Brookes University](https://uniacco.com/uk/oxford-brookes-university):  Accommodation options close to Oxford Brookes University
+[Student Accommodation near De Montfort University](https://uniacco.com/uk/de-montfort-university):  Accommodation options close to De Montfort University
+[Student Accommodation near Imperial College London](https://uniacco.com/uk/imperial-college-london):  Accommodation options close to Imperial College London
+[Student Accommodation near Kings College London - Denmark Hill Campus](https://uniacco.com/uk/kings-college-london-denmark-hill-campus):  Accommodation options close to Kings College London - Denmark Hill Campus
+[Student Accommodation near Coventry University](https://uniacco.com/uk/coventry-university):  Accommodation options close to Coventry University
+[Student Accommodation near City, University of London](https://uniacco.com/uk/city-university-of-london):  Accommodation options close to City, University of London
+[Student Accommodation near Cardiff University](https://uniacco.com/uk/cardiff-university):  Accommodation options close to Cardiff University
+[Student Accommodation near Cardiff Metropolitan University](https://uniacco.com/uk/cardiff-metropolitan-university):  Accommodation options close to Cardiff Metropolitan University
+[Student Accommodation near Birmingham City University](https://uniacco.com/uk/birmingham-city-university):  Accommodation options close to Birmingham City University
+[Student Accommodation near Aston University](https://uniacco.com/uk/aston-university):  Accommodation options close to Aston University
+
+# === Additional Resources===
+- [Media Mentions](https://uniacco.com/company/media-mentions): Coverage and mentions of UniAcco in the media.
+- [UniEssentials](https://uniessential.com/): A collection of essential services for students.
+- [About Us](https://uniacco.com/company/about-us): Information about UniAcco and its mission.
+- [Contact Us](https://uniacco.com/contact-us): A page for users to get in touch with UniAcco.
+- [Partners](https://uniacco.com/partners): Information about UniAcco's partners.
+- [Careers](https://uniacco.com/company/careers): Job opportunities at UniAcco.
+
+# === Legal Information ===
+- [Privacy Policy](https://uniacco.com/company/privacy-policy): Details on how user data is handled.
+- [Terms](https://uniacco.com/company/terms): Terms and conditions for using UniAcco services.
+- [Sitemap](https://uniacco.com/sitemap.xml): A structured overview of the UniAcco website.
+
+# === Author Information ===
+# Helps Credibility to your content with a real Author bio
+authors:
+  - name: Simren Rhea Sequeira
+    title: Content Marketing Executive
+    profile: https://www.linkedin.com/in/rhea-sequeira-87463a187/
+    author_page: https://uniacco.com/blog/author/rhea-s
+  - name: Zahraa Rajkotwala
+    title: Content Marketing
+    profile: https://in.linkedin.com/in/zahraa-rajkotwala-b370b4337
+    author_page: https://uniacco.com/blog/author/zahraa-rajkotwalauniacco-com
+  - name: Aparajita Sen
+    title: Senior Content Editor
+    profile: https://www.linkedin.com/in/aparajitasen1412/
+    author_page: https://uniacco.com/blog/author/aparajita
+
+# === Reviewer Information ===
+reviewers:
+  - name: Abhishek Sharma
+    title: Study Abroad Expert
+    profile: https://in.linkedin.com/in/abhishek-sharma123
+    reviewer: Abhishek Sharma, Chief Marketing Officer - Marketing
+    reviewer_profile: https://uniacco.com/blog/author/ua_abhishek
+
+# === Authoritative Entity: Founders & Leadership ===
+founders:
+  - name: Amit Singh
+    title: Co-Founder & CEO
+    profile: https://www.linkedin.com/in/amituniacco
+    bio: Co-founder of UniAcco, brings 20+ years of expertise in finance and real estate. With strong PBSA owner ties and sharp organisational insight, he's building a unique marketplace in the student housing sector to create long-term value where the industry is still emerging.
+  - name: Anupam Gupta
+    title: Co-Founder
+    profile: https://www.linkedin.com/in/anupam-gupta-7881077b/
+    bio: Anupam Gupta, Co-founder of UniAcco, is driven by a vision to enhance global education access. With a background in consulting and an entrepreneurial spirit, he builds platforms that simplify student services and strengthen pathways for students aspiring to study abroad.
+
+# === Organization Details ===
+organization:
+  name: UniAcco
+  founded: 2019
+  url: https://uniacco.com/
+  type: Private
+  address: A 3614-3618, Marathon Futurex, Mafatlal Mills Compound, N.M. Joshi Marg, Lower Parel East, Mumbai – 400013
+  contact: contact@uniacco.com
+
+# === Website History ===
+launched: 2019
+milestones:
+  - 2020: Expanded to UK and Australia
+  - 2022: Partnered with 1,500+ properties globally
+  - 2023: Expanded to European Locations like Germany, France, Italy etc.
+  - 2024: Launched UniFlx as a short term student housing platform providing modern and efficient living solutions.
+  - 2025: Launched UniEssentials as an extension to help students in other services like Airport/Luggage Transfers, Guarantor, Insurances, Student bank accounts etc.
+
+# === Awards and Certifications ===
+awards:
+  - 2021: Best Student Housing Platform – Indian Education Awards
+  - 2022: Top 100 Startups – India Startup Summit

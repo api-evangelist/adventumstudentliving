@@ -1,0 +1,37 @@
+generated: '2026-09-09'
+method: searched
+source: >-
+  npm registry search + registry.npmjs.org metadata, pypi.org/pypi/<name>/json,
+  api.github.com/orgs/uniacco-tech/repos, and the ASL/UniAcco/UniCreds/UniScholars websites
+  (2026-09-09)
+package_count: 0
+official_sdk_count: 0
+packages: []
+note: >-
+  Adventum Student Living publishes no first-party client library in any public registry. npm, PyPI,
+  RubyGems, crates.io, NuGet, Maven Central and pkg.go.dev were searched for adventum / adventumstudentliving /
+  uniacco / unicreds / unischolars / uniflx; nothing first-party was found. There is no SDK page,
+  developer portal or API reference on any ASL property to derive candidates from, so no `SDKs`
+  pointer is emitted.
+registry_findings:
+  - registry: github
+    org: https://github.com/uniacco-tech
+    public_repos: 2
+    note: >-
+      The company GitHub org holds two repositories, neither an API artifact:
+      `django-admin-searchable-dropdown` (a Django admin filter, last pushed 2021-09-06) and
+      `ChatGPT-Reviewer` (a fork of an automated PR-review bot, last pushed 2023-12-28). No SDK, no
+      spec, no proto, no WSDL.
+  - registry: npm
+    name: "@uniacco-tech/asl_ui"
+    version: 1.2.1
+    published: '2024-03-07'
+    official: false
+    url: https://www.npmjs.com/package/@uniacco-tech/asl_ui
+    note: >-
+      NOT a first-party package and NOT counted above. The only npm result matching the company is a
+      third-party dependency-confusion proof-of-concept: the `@uniacco-tech` npm scope was registered
+      2024-03-07 by an outside security researcher (npm maintainer `uniacco-tech <REDACTED_EMAIL>`,
+      package author `dmdhrumilmistry`), and the package description is literally "supply chain attack
+      poc". It appears to target an internal package name `asl_ui`. Recorded here as a security
+      observation for the provider, explicitly marked official:false so it is never credited as an SDK.

@@ -1,0 +1,21 @@
+generated: '2026-09-09'
+method: searched
+source: >-
+  ASL / UniAcco / UniCreds / UniScholars websites and the UniAcco llms.txt, robots.txt and partner
+  portal (2026-09-09)
+limit_count: 0
+rate_limits: []
+headers: []
+note: >-
+  No rate limits are documented, because no API is documented. There is no developer portal, API
+  reference or machine-readable contract on any Adventum Student Living host to carry limits, and no
+  unauthenticated API response exists to observe RateLimit-* / X-RateLimit-* / Retry-After headers on.
+  An honest zero, not an unchecked field.
+crawler_policy:
+  note: >-
+    The nearest published machine-consumption policy ASL operates is agent access control rather than
+    rate limiting. https://uniacco.com/llms.txt declares `openai: allow`, `anthropic: allow`,
+    `perplexity: allow`, `*: attribution = required` and a CC BY-NC 4.0 content licence;
+    https://uniacco.com/robots.txt disallows /admin/*, /short-stays, /v1/*, /v2/*, */feed, */amp and
+    query strings. https://crm.uniacco.com/robots.txt is `Disallow: /`.
+  source: https://uniacco.com/llms.txt

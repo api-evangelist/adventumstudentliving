@@ -1,0 +1,12 @@
+generated: '2026-09-09'
+method: searched
+source: https://adventumstudentliving.com/company/our-services
+plan_count: 0
+plans: []
+note: >-
+  Adventum Student Living publishes no API plans or developer pricing because it publishes no API.
+  Its consumer products are free at the point of use to students — UniAcco takes commission from
+  purpose-built student accommodation operators, UniCreds is a lender marketplace, UniScholars is
+  counselling — and the only commercial surface aimed at businesses is the invite-only UniAcco
+  partner dashboard at https://partner.uniacco.com/ (HTTP 200, a login-gated SPA), which publishes
+  no rate card. No `Pricing` pointer is emitted: there is no published pricing page on any ASL host.

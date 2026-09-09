@@ -1,0 +1,59 @@
+generated: '2026-09-09'
+method: probed
+source: live DNS/TLS/HTTP probes of the ASL corporate domain and the four consumer brand hosts it links from adventumstudentliving.com
+note: >-
+  adventumstudentliving.com is the corporate site; uniacco.com, unicreds.com and unischolars.com are
+  the operating brands ASL links from its own homepage and names in the UniAcco terms/privacy pages
+  ("Adventum Student Living Private Limited, hereinafter also referred to as UniAcco"). No API host
+  exists to probe — see well-known/adventumstudentliving-well-known.yml.
+hosts:
+- host: adventumstudentliving.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Nov 16 21:35:55 2026 GMT
+  hsts: true
+  hsts_max_age: 63072000
+- host: uniacco.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Feb 23 23:59:59 2027 GMT
+  hsts: true
+  hsts_max_age: 31536000
+  hsts_include_subdomains: true
+  hsts_preload: true
+- host: unicreds.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Dec 17 23:59:59 2026 GMT
+  hsts: true
+  hsts_max_age: 31536000
+- host: unischolars.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Mar 20 23:59:59 2027 GMT
+  hsts: true
+  hsts_max_age: 31536000
+domains:
+- domain: adventumstudentliving.com
+  dnssec: false
+  caa: []
+  spf: false
+  dmarc: false
+- domain: uniacco.com
+  dnssec: false
+  caa: []
+  spf: true
+  dmarc: true
+  dmarc_policy: reject
+- domain: unicreds.com
+  dnssec: false
+  caa: []
+  spf: true
+  dmarc: true
+  dmarc_policy: reject
+- domain: unischolars.com
+  dnssec: false
+  caa: []
+  spf: false
+  dmarc: true
+  dmarc_policy: reject

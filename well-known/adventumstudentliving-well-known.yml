@@ -1,0 +1,414 @@
+generated: '2026-09-09'
+method: probed
+source: live HTTPS probes, 2026-09-09
+summary: Zero real /.well-known/ documents across all seven Adventum Student Living hosts. No security.txt,
+  no OAuth/OIDC discovery, no api-catalog, no apis.json, no ai-plugin, no AAuth resource, no A2A agent
+  card. Every HTTP 200 recorded below is an HTML application shell from a single-page app, verified by
+  a negative-control probe. NO WellKnown / SecurityTxt / AgentCard pointer is emitted for this provider.
+hosts:
+- host: https://adventumstudentliving.com
+  hit_count: 0
+  soft_404_control:
+    path: /.well-known/adventumstudentliving-negative-control-7f3ab91c.json
+    status: 404
+    bytes: 3755
+    verdict: passed
+  note: Corporate Next.js site. Every probed path returns a real 404 error page; negative control 404.
+    No .well-known surface served.
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    file: null
+  - path: /.well-known/oauth-protected-resource
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog.json
+    status: 404
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null
+  - path: /.well-known/ucp.json
+    status: 404
+    file: null
+  - path: /.well-known/acp.json
+    status: 404
+    file: null
+  - path: /.well-known/aauth-resource.json
+    status: 404
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 404
+    file: null
+  - path: /.well-known/agent.json
+    status: 404
+    file: null
+  - path: /.well-known/apis.json
+    status: 404
+    file: null
+  - path: /apis.json
+    status: 404
+    file: null
+  - path: /apis.yml
+    status: 404
+    file: null
+- host: https://uniacco.com
+  hit_count: 0
+  soft_404_control:
+    path: /.well-known/adventumstudentliving-negative-control-7f3ab91c.json
+    status: 404
+    bytes: 19212
+    verdict: passed
+  note: 'UniAcco marketplace (Next.js). All probed discovery paths 404 with the Next.js error page; negative
+    control 404. NOTE: this host DOES serve a real /llms.txt (HTTP 200, 18,214 bytes) — saved to llms/adventumstudentliving-llms.txt
+    — but no /.well-known/ document of any kind.'
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    file: null
+  - path: /.well-known/oauth-protected-resource
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog.json
+    status: 404
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null
+  - path: /.well-known/ucp.json
+    status: 404
+    file: null
+  - path: /.well-known/acp.json
+    status: 404
+    file: null
+  - path: /.well-known/aauth-resource.json
+    status: 404
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 404
+    file: null
+  - path: /.well-known/agent.json
+    status: 404
+    file: null
+  - path: /.well-known/apis.json
+    status: 404
+    file: null
+  - path: /apis.json
+    status: 404
+    file: null
+  - path: /apis.yml
+    status: 404
+    file: null
+- host: https://unicreds.com
+  hit_count: 0
+  soft_404_control:
+    path: /.well-known/adventumstudentliving-negative-control-7f3ab91c.json
+    status: 403
+    bytes: 919
+    verdict: passed
+  note: UniCreds education-loan marketplace. All probed paths 404; negative control returned 403 from
+    the edge, still not a document.
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    file: null
+  - path: /.well-known/oauth-protected-resource
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog.json
+    status: 404
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null
+  - path: /.well-known/ucp.json
+    status: 404
+    file: null
+  - path: /.well-known/acp.json
+    status: 404
+    file: null
+  - path: /.well-known/aauth-resource.json
+    status: 404
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 404
+    file: null
+  - path: /.well-known/agent.json
+    status: 404
+    file: null
+  - path: /.well-known/apis.json
+    status: 404
+    file: null
+  - path: /apis.json
+    status: 404
+    file: null
+  - path: /apis.yml
+    status: 404
+    file: null
+- host: https://unischolars.com
+  hit_count: 0
+  soft_404_control:
+    path: /.well-known/adventumstudentliving-negative-control-7f3ab91c.json
+    status: 404
+    bytes: 20370
+    verdict: passed
+  note: UniScholars counselling site (Next.js). All probed paths 404; negative control 404.
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    file: null
+  - path: /.well-known/oauth-protected-resource
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog.json
+    status: 404
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null
+  - path: /.well-known/ucp.json
+    status: 404
+    file: null
+  - path: /.well-known/acp.json
+    status: 404
+    file: null
+  - path: /.well-known/aauth-resource.json
+    status: 404
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 404
+    file: null
+  - path: /.well-known/agent.json
+    status: 404
+    file: null
+  - path: /.well-known/apis.json
+    status: 404
+    file: null
+  - path: /apis.json
+    status: 404
+    file: null
+  - path: /apis.yml
+    status: 404
+    file: null
+- host: https://partner.uniacco.com
+  hit_count: 0
+  soft_404_control:
+    path: /.well-known/adventumstudentliving-negative-control-7f3ab91c.json
+    status: 404
+    bytes: 865
+    verdict: passed
+  note: 'Invite-only UniAcco partner dashboard (Create-React-App SPA). Four paths answered HTTP 200 but
+    every response is the SAME 865-byte HTML application shell (<div id="root"></div>), not a document.
+    Treated as MISSES: soft-200 SPA shell.'
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 200
+    file: null
+    note: HTTP 200 but body is an HTML application shell, not a document — not a hit
+  - path: /.well-known/oauth-authorization-server
+    status: 200
+    file: null
+    note: HTTP 200 but body is an HTML application shell, not a document — not a hit
+  - path: /.well-known/oauth-protected-resource
+    status: 200
+    file: null
+    note: HTTP 200 but body is an HTML application shell, not a document — not a hit
+  - path: /.well-known/api-catalog
+    status: 200
+    file: null
+    note: HTTP 200 but body is an HTML application shell, not a document — not a hit
+  - path: /.well-known/api-catalog.json
+    status: 404
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null
+  - path: /.well-known/ucp.json
+    status: 404
+    file: null
+  - path: /.well-known/acp.json
+    status: 404
+    file: null
+  - path: /.well-known/aauth-resource.json
+    status: 404
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 404
+    file: null
+  - path: /.well-known/agent.json
+    status: 404
+    file: null
+  - path: /.well-known/apis.json
+    status: 404
+    file: null
+  - path: /apis.json
+    status: 404
+    file: null
+  - path: /apis.yml
+    status: 200
+    file: null
+    note: HTTP 200 but body is an HTML application shell, not a document — not a hit
+- host: https://crm.uniacco.com
+  hit_count: 0
+  soft_404_control:
+    path: /.well-known/adventumstudentliving-negative-control-7f3ab91c.json
+    status: 200
+    bytes: 4870
+    verdict: failed
+  note: 'Internal UniAcco CRM (React SPA, meta robots noindex,nofollow, robots.txt Disallow: /). Total
+    catch-all: every path including the negative control returns the identical 4,870-byte HTML shell with
+    HTTP 200. path_echo_control / soft_404_control FAILED — every 200 on this host is discarded.'
+  documents:
+  - path: /.well-known/security.txt
+    status: 200
+    file: null
+    note: HTTP 200 but body is an HTML application shell, not a document — not a hit
+  - path: /.well-known/openid-configuration
+    status: 200
+    file: null
+    note: HTTP 200 but body is an HTML application shell, not a document — not a hit
+  - path: /.well-known/oauth-authorization-server
+    status: 200
+    file: null
+    note: HTTP 200 but body is an HTML application shell, not a document — not a hit
+  - path: /.well-known/oauth-protected-resource
+    status: 200
+    file: null
+    note: HTTP 200 but body is an HTML application shell, not a document — not a hit
+  - path: /.well-known/api-catalog
+    status: 200
+    file: null
+    note: HTTP 200 but body is an HTML application shell, not a document — not a hit
+  - path: /.well-known/api-catalog.json
+    status: 200
+    file: null
+    note: HTTP 200 but body is an HTML application shell, not a document — not a hit
+  - path: /.well-known/ai-plugin.json
+    status: 200
+    file: null
+    note: HTTP 200 but body is an HTML application shell, not a document — not a hit
+  - path: /.well-known/ucp.json
+    status: 200
+    file: null
+    note: HTTP 200 but body is an HTML application shell, not a document — not a hit
+  - path: /.well-known/acp.json
+    status: 200
+    file: null
+    note: HTTP 200 but body is an HTML application shell, not a document — not a hit
+  - path: /.well-known/aauth-resource.json
+    status: 200
+    file: null
+    note: HTTP 200 but body is an HTML application shell, not a document — not a hit
+  - path: /.well-known/agent-card.json
+    status: 200
+    file: null
+    note: HTTP 200 but body is an HTML application shell, not a document — not a hit
+  - path: /.well-known/agent.json
+    status: 200
+    file: null
+    note: HTTP 200 but body is an HTML application shell, not a document — not a hit
+  - path: /.well-known/apis.json
+    status: 200
+    file: null
+    note: HTTP 200 but body is an HTML application shell, not a document — not a hit
+  - path: /apis.json
+    status: 200
+    file: null
+    note: HTTP 200 but body is an HTML application shell, not a document — not a hit
+  - path: /apis.yml
+    status: 200
+    file: null
+    note: HTTP 200 but body is an HTML application shell, not a document — not a hit
+- host: https://uniflx.com
+  hit_count: 0
+  soft_404_control:
+    path: /.well-known/adventumstudentliving-negative-control-7f3ab91c.json
+    status: 404
+    bytes: 7625
+    verdict: passed
+  note: UniFlx short-stay student housing brand. All probed paths 404; negative control 404.
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    file: null
+  - path: /.well-known/oauth-protected-resource
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog.json
+    status: 404
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null
+  - path: /.well-known/ucp.json
+    status: 404
+    file: null
+  - path: /.well-known/acp.json
+    status: 404
+    file: null
+  - path: /.well-known/aauth-resource.json
+    status: 404
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 404
+    file: null
+  - path: /.well-known/agent.json
+    status: 404
+    file: null
+  - path: /.well-known/apis.json
+    status: 404
+    file: null
+  - path: /apis.json
+    status: 404
+    file: null
+  - path: /apis.yml
+    status: 404
+    file: null
